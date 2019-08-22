@@ -170,3 +170,10 @@ mutation {
 > 一旦定义了Schema，前端和后端团队就可以在没有进一步沟通的情况下完成工作，因为他们都知道通过网络发送的数据的明确结构。
 
 > 前端团队可以通过模拟所需的数据结构轻松地测试他们的应用程序。一旦服务器启动。准备好后，可以翻转开关，让客户端应用程序从实际API加载数据。
+
+
+* [spring-boot](https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/)
+
+* [egg](https://github.com/eggjs/egg-graphql)
+
+* [nestjs](https://docs.nestjs.com/graphql/resolvers-map)

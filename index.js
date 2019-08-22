@@ -5,6 +5,7 @@ const graphqlHTTP = require('express-graphql');
 const { schema, root } = require('./example/' + process.argv[2])
 
 const app = express();
+
 app.use(
   '/graphql',
   graphqlHTTP({
@@ -13,5 +14,7 @@ app.use(
     graphiql: true,
   }),
 );
+
 app.listen(5000);
+
 console.log('Running a GraphQL API server at http://localhost:5000/graphql');
